@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: F8F80A;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vasyliuk.HelloController">
+    <children>
+        <AnchorPane prefHeight="107.0" prefWidth="606.0" style="-fx-background-color: F8F80A;">
+            <children>
+                <TextArea layoutX="23.0" layoutY="39.0" prefHeight="49.0" prefWidth="555.0" text="                 Анонімна допомога нашій армії" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="22.0" AnchorPane.topAnchor="39.0">
+                    <font>
+                        <Font size="23.0" />
+                    </font>
+                </TextArea>
+            </children>
+        </AnchorPane>
+        <HBox prefHeight="303.0" prefWidth="600.0" style="-fx-background-color: F8F80A;">
+            <children>
+                <VBox prefHeight="298.0" prefWidth="313.0">
+                    <children>
+                        <Button fx:id="places2" mnemonicParsing="false" onAction="#button1" prefHeight="59.0" prefWidth="161.0" style="-fx-background-color: 5F9DF7;" styleClass="DEEEE8" text="Місцезнаходження" textFill="#0076bf">
+                            <VBox.margin>
+                                <Insets bottom="50.0" left="50.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font name="Cambria Bold" size="15.0" />
+                            </font></Button>
+                        <Button fx:id="chooseatype2" mnemonicParsing="false" onAction="#button2" prefHeight="66.0" prefWidth="161.0" styleClass="DEEEE8" text="Обрати тип" textFill="#0076bf">
+                            <VBox.margin>
+                                <Insets left="50.0" top="20.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font name="Cambria Bold" size="15.0" />
+                            </font></Button>
+                    </children>
+                    <padding>
+                        <Insets top="30.0" />
+                    </padding>
+                </VBox>
+                <VBox prefHeight="284.0" prefWidth="299.0">
+                    <children>
+                        <Button fx:id="explainatype" mnemonicParsing="false" onAction="#button3" prefHeight="64.0" prefWidth="188.0" styleClass="DEEEE8" text="Описати дані" textFill="#0076bf">
+                            <VBox.margin>
+                                <Insets bottom="50.0" left="60.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font name="Cambria Bold" size="15.0" />
+                            </font></Button>
+                        <Button fx:id="helpbutton" mnemonicParsing="false" onAction="#helpButton" prefHeight="62.0" prefWidth="187.0" styleClass="DEEEE8" text="Допомогти фінансово" textFill="#0076bf">
+                            <VBox.margin>
+                                <Insets left="60.0" top="20.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font name="Cambria Bold" size="15.0" />
+                            </font></Button>
+                    </children>
+                    <padding>
+                        <Insets top="27.0" />
+                    </padding>
+                </VBox>
+            </children>
+        </HBox>
+    </children>
+</VBox>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: F8F80A;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vasyliuk.ThirdController">
+    <children>
+        <AnchorPane prefHeight="89.0" prefWidth="598.0" style="-fx-background-color: 11F118;">
+            <children>
+                <TextArea layoutX="18.0" layoutY="21.0" prefHeight="57.0" prefWidth="573.0" text="                               Обрати тип">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </TextArea>
+            </children>
+        </AnchorPane>
+        <HBox prefHeight="326.0" prefWidth="600.0">
+            <children>
+                <VBox prefHeight="319.0" prefWidth="333.0">
+                    <children>
+                        <Button mnemonicParsing="false" prefHeight="53.0" prefWidth="190.0" text="Військові">
+                            <VBox.margin>
+                                <Insets left="60.0" top="75.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </VBox>
+                <VBox prefHeight="319.0" prefWidth="324.0">
+                    <children>
+                        <Button mnemonicParsing="false" prefHeight="53.0" prefWidth="190.0" text="Техніка">
+                            <VBox.margin>
+                                <Insets left="60.0" top="75.0" />
+                            </VBox.margin>
+                            <font>
+                                <Font size="20.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+    </children>
+</VBox>
